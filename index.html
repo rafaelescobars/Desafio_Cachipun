@@ -26,7 +26,7 @@
 
   <!-- Header -->
   <header>
-    <div class="container text-center fw-bold pt-3 pb-2">
+    <div class="container-fluid text-center fw-bold pt-3 pb-2 px-5">
       <h1>
         Cachipún Contra la Máquina
       </h1>
@@ -43,18 +43,18 @@
           </label>
           <input id="input_match_numbers" type="number" class="form-control text-center" min="0" step="1">
         </form>
-        <div class="container">
-          <div class="row">
-            <div class="col text-center pb-2">
-              <button id="btn_accept_match_numbers" type="button"
-                onclick='accept_match_numbers(document.getElementById("input_match_numbers").value)' class="btn
-                btn-outline-light w-100">
-                Aceptar
-              </button>
-            </div>
-          </div>
+        <div class="d-grid pb-2">
+          <!-- <div class="row"> -->
+          <!-- <div class="col text-center pb-2"> -->
+          <button id="btn_accept_match_numbers" type="button"
+            onclick='accept_match_numbers(document.getElementById("input_match_numbers").value)' class="btn
+                btn-outline-light ">
+            Aceptar
+          </button>
+          <!-- </div> -->
         </div>
       </div>
+    </div>
   </section>
 
   <!-- Sección Juego -->
